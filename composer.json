@@ -1,6 +1,6 @@
 {
     "name": "getpop/engine-wp-bootloader",
-    "type": "library",
+    "type": "wordpress-muplugin",
     "description": "PoP Engine Bootloader for WordPress",
     "keywords": [
         "pop",
@@ -20,7 +20,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php" : "~7.1"
+        "php" : "~7.1",
+        "composer/installers": "~1.0"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=7.0",
