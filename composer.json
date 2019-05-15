@@ -22,8 +22,7 @@
     "require": {
         "php" : "~7.1",
         "composer/installers": "^1.6",
-        "getpop/hooks-contracts-implementation": "dev-master",
-        "lkwdwrd/wp-muplugin-loader": "^1.0"
+        "getpop/hooks-contracts-implementation": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=7.0",
