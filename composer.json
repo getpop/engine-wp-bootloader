@@ -23,6 +23,8 @@
         "php" : "~7.1",
         "composer/installers": "^1.6",
         "getpop/hooks-contracts-implementation": "dev-master",
+        "getpop/translation-contracts-implementation": "dev-master",
+        "getpop/routing-contracts-implementation": "dev-master",
         "lkwdwrd/wp-muplugin-loader": "^1.0"
     },
     "require-dev": {
