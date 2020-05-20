@@ -8,4 +8,4 @@ Author: Leonardo Losoviz
 */
 
 // Initialize PoP Engine through the Bootloader
-\PoP\Engine\Bootloader\Initialization::init();
+\PoP\Engine\Bootloader::bootComponents();
