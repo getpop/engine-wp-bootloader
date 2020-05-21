@@ -20,6 +20,10 @@ Via Composer
 composer require getpop/engine-wp-bootloader
 ```
 
+## Usage
+
+Install file `pop-engine-wp-bootloader.php` as a WordPress must-use plugin, by copying it under folder `/mu-plugins`.
+
 ## Standards
 
 [PSR-1](https://www.php-fig.org/psr/psr-1), [PSR-4](https://www.php-fig.org/psr/psr-4) and [PSR-12](https://www.php-fig.org/psr/psr-12).
