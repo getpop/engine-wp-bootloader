@@ -19,13 +19,19 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/leoloso/wp-muplugin-loader.git"
+        }
+    ],
     "require": {
         "php": "~7.4",
         "composer/installers": "~1.0",
         "getpop/hooks-contracts-implementation": "~0.1",
         "getpop/translation-contracts-implementation": "~0.1",
         "getpop/routing-contracts-implementation": "~0.1",
-        "lkwdwrd/wp-muplugin-loader": "^1.0"
+        "lkwdwrd/wp-muplugin-loader": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
